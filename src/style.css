@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+.phrase-random{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    padding: 15px;
+}
+
+.btn-open{
+    width: 15rem;
+    height: 1.8rem;
+    border-radius: 0.8rem;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    background-color: slategray;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-open:focus{
+    outline: none;
+}
+
+
+.btn-open:hover{
+    background-color: yellowgreen;
+    transition: 0.5s;
+}
